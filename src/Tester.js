@@ -1,6 +1,7 @@
 class Tester {
+    #testResults;
     constructor(){
-        this.testResults = [];
+        this.#testResults = [];
     }
 
     /**
@@ -12,7 +13,7 @@ class Tester {
      */
     test(output, expected, funcName){
         const res = (output === expected) ? 'PASSED' : 'FAILED';
-        this.testResults.push({
+        this.#testResults.push({
             res: res,
             funcName: funcName,
             output: output,
@@ -20,10 +21,13 @@ class Tester {
         });
     }
 
+    /**
+     * Prints results for all tests run
+     */
     printResults(){
         let passedTests = 0;
         let numTests = 0;
-        this.testResults.forEach(test => {
+        this.#testResults.forEach(test => {
             numTests++;
             if(test.res === 'PASSED'){
                 passedTests++;
