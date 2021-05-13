@@ -1,0 +1,19 @@
+{
+  "name": "universal-tester",
+  "version": "0.0.1",
+  "description": "Universal testing class for node functions",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttse76/universal-tester.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttse76/universal-tester/issues"
+  },
+  "homepage": "https://github.com/ttse76/universal-tester#readme"
+}
