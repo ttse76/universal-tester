@@ -2,7 +2,7 @@
   "name": "universal-tester",
   "version": "0.0.1",
   "description": "Universal testing class for node functions",
-  "main": "index.js",
+  "main": "src/Tester.js",
   "scripts": {
     
   },
