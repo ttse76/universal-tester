@@ -1,6 +1,6 @@
 # Universal Tester
 
-Simple class to test functions written in node js
+Create a simple test report for node js
 
 ## Installation
 `npm i universal-tester`
